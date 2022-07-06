@@ -1,5 +1,0 @@
-<launch>
-   
-    <node name="tf2_listener" pkg="fanuc_moveit_config" type="tf2_listener.cpp" output="screen"/>
-
-</launch>
