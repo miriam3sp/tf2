@@ -20,16 +20,17 @@
 
    follow the tutorial: https://ros-planning.github.io/moveit_tutorials/doc/setup_assistant/setup_assistant_tutorial.html
    
-3. 
+3. Copy tf_pkg to your workspace and build them:
 
-source devel/setup.bash
+   catkin build
 
-roslaunch fanuc_moveit_config demo.launch
+   source devel/setup.bash
 
+   roslaunch fanuc_moveit_config demo.launch
 
-source devel/setup.bash
+   source devel/setup.bash
 
-rosrun tf_pkg compute_tf
+   rosrun tf_pkg compute_tf
 
 
 
