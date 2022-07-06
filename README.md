@@ -19,6 +19,15 @@
    roslaunch moveit_setup_assistant setup_assistant.launch
 
    follow the tutorial: https://ros-planning.github.io/moveit_tutorials/doc/setup_assistant/setup_assistant_tutorial.html
+   
+3. 
+
+roscore
+
+source devel/setup.bash
+
+rosrun tf_pkg compute_tf
+
 
 
 
