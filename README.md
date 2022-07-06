@@ -7,17 +7,20 @@
 
 
 # Start demo
-source devel/setup.bash
 
-roslaunch urdf_tutorial display.launch model:=./src/fanuc_description/robot/fanuc.xacro
+1. visualize the Fanuc robot in RViz:
 
-For create fanuc_moveit_config package:
+   source devel/setup.bash
 
-roslaunch moveit_setup_assistant setup_assistant.launch
+   roslaunch urdf_tutorial display.launch model:=./src/fanuc_description/robot/fanuc.xacro
 
-Follow the tutorial:
+2. For create fanuc_moveit_config package:
 
-https://ros-planning.github.io/moveit_tutorials/doc/setup_assistant/setup_assistant_tutorial.html
+   roslaunch moveit_setup_assistant setup_assistant.launch
+
+3. Follow the tutorial:
+
+   https://ros-planning.github.io/moveit_tutorials/doc/setup_assistant/setup_assistant_tutorial.html
 
 
 
