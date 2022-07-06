@@ -8,7 +8,7 @@
 
 # Start demo
 
-1. visualize the Fanuc robot in RViz:
+1. Visualize the Fanuc robot in RViz:
 
    source devel/setup.bash
 
