@@ -6,7 +6,8 @@
 5.	Verify the results by comparing with manual/MATLAB calculations.
 
 
-
+# Start demo
+source devel/setup.bash
 
 roslaunch urdf_tutorial display.launch model:=./src/fanuc_description/robot/fanuc.xacro
 
