@@ -18,9 +18,7 @@
 
    roslaunch moveit_setup_assistant setup_assistant.launch
 
-3. Follow the tutorial:
-
-   https://ros-planning.github.io/moveit_tutorials/doc/setup_assistant/setup_assistant_tutorial.html
+   follow the tutorial: https://ros-planning.github.io/moveit_tutorials/doc/setup_assistant/setup_assistant_tutorial.html
 
 
 
