@@ -22,7 +22,10 @@
    
 3. 
 
-roscore
+source devel/setup.bash
+
+roslaunch fanuc_moveit_config demo.launch
+
 
 source devel/setup.bash
 
