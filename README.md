@@ -1,4 +1,4 @@
-## Exercise 2
+# Exercise 2
 1.	Derive DH parameters for the Fanuc robot.
 2.	Translate DH parameters to URDF and visualize the Fanuc robot in RViz with urdf_tutorial display.launch 
 3.	Create a fanuc_moveit_config package and visualize the robot in RViz.
