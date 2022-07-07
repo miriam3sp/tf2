@@ -6,7 +6,7 @@
 5.	Verify the results by comparing with manual/MATLAB calculations.
 
 
-# Start demo
+## Start demo
 
 1. Visualize the Fanuc robot in RViz:
 
@@ -32,6 +32,8 @@
 
    rosrun tf_pkg compute_tf
 
+### Referements:
+http://wiki.ros.org/tf2/Tutorials/Writing%20a%20tf2%20listener%20%28C%2B%2B%29
 
 
 
