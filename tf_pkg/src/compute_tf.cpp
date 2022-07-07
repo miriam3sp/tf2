@@ -31,9 +31,7 @@ try {
 
 for(int i=0; i < transforms.size(); i++){
   std::ostringstream std_output;
-
-  std_output << std::endl << std::endl << "************ Transformation from " << transforms[i].header.frame_id << " to " << transforms[i].child_frame_id << " ************" << std::endl;
-
+  
   std_output << "\nTranslation ################################### \n" << std::endl;
   std_output << transforms[i].transform.translation << std::endl;
 
